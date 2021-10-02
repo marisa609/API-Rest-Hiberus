@@ -1,0 +1,16 @@
+<app-header></app-header>
+<div id="content">
+    <app-formulario
+        (crear) = "crearUsuario($event)"
+        [datosActualizados] = "datosActualizados"
+    ></app-formulario>
+
+    <app-listado
+        [listaUsuarios]="listaUsuarios"
+        (borrar) = "borrarUsuario($event)"
+        (actualizar) = "usuarioActualizado($event)"
+    ></app-listado>
+    <app-footer></app-footer>
+</div>
+
+  

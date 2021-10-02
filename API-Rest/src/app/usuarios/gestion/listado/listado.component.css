@@ -1,0 +1,12 @@
+.full-width-table {
+  width: 100%;
+  background-color: #bbf1ff;
+}
+
+.mat-elevation-z8 {
+  border-radius: 200px;
+}
+
+.mat-raised-button {
+  background-color: #5cdeff;
+}

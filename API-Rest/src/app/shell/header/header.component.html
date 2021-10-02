@@ -1,0 +1,14 @@
+<mat-toolbar color="primary">
+<!--   <ng-container>
+    <button mat-icon-button>
+      <mat-icon>menu</mat-icon>
+    </button>
+  </ng-container> -->
+  <span>Hiberus</span>
+  <img id="fotoHiberusLogin" [src]="fotoHiberusLogin">
+  <span class="spacer"></span>
+  <a mat-button routerLink="/usuarios">Home</a>
+  <a mat-button routerLink="/usuarios/listado">listado</a>
+  <a mat-button (click)="cerrarSesion()">Salir</a>
+</mat-toolbar>
+

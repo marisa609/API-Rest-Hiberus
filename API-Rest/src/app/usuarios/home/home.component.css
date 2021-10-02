@@ -1,0 +1,35 @@
+.grid-container {
+  margin: 20px;
+}
+
+.dashboard-card {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+
+.more-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.dashboard-card-content {
+  text-align: center;
+}
+
+#content { 
+  width: 80%;
+   margin-left: 10%;
+   padding: 16px; 
+   overflow: auto; 
+   
+}
+
+#fotoHiberusLogin {
+  padding-left: 25%;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}

@@ -1,0 +1,8 @@
+#content { 
+    position: absolute;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 50px;
+    /* padding: 16px;  */
+    /* overflow: auto; */ 
+}
